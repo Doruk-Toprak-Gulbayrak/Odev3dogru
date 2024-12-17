@@ -36,7 +36,7 @@ public class IntakingCommand extends Command {
   
     if (!m_intake.getSensor()) 
     {
-      m_intake.setIntake(m_speed_feeder);
+      m_intake.setIntake(m_speed_intake);
    } 
    else 
    {
