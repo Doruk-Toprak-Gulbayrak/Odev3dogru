@@ -33,7 +33,7 @@ public class IntakingCommand extends Command {
   // Called every time the scheduler runs while the command is scheduled.
   @Override
   public void execute() {
-  
+  m_feeder.setIntake(m_speed_feeder);
     if (!m_intake.getSensor()) 
     {
       m_intake.setIntake(m_speed_intake);
